@@ -1,0 +1,50 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+
+# VS Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Dotnet
+*.swp
+*.lock.json
+project.lock.json
+
+# Packages
+packages/
+*.nupkg
+# Pokud používáš paket cache:
+# .nuget/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Env/Secrets
+.env
+*.secret.json
+
+# SQLite files (pokud použiješ SQLite)
+*.db
+*.db-shm
+*.db-wal
+
+# MySQL dumps
+*.sql
+*.dump.sql
+
+# Test coverage
+coverage/
+TestResults/
+*.trx
