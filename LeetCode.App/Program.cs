@@ -12,3 +12,7 @@ int[] result = sol1.TwoSum(nums, target);
 Console.WriteLine($"[{string.Join(", ", result)}]");
 
 */
+
+Solution20Easy sol20 = new Solution20Easy();
+string s = "))";
+Console.WriteLine(sol20.IsValid(s));
